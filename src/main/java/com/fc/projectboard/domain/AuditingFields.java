@@ -37,4 +37,6 @@ public class AuditingFields {
     @LastModifiedBy
     @Column(nullable = false, length = 100)
     private String modifiedBy; // 수정자
+
+    // 이것은 깃 브랜치 연습중, 추후 삭제 예정이다.
 }

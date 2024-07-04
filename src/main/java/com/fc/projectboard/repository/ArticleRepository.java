@@ -6,4 +6,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource
 public interface ArticleRepository extends JpaRepository<Article, Long> {
+    // 이것은 깃 브랜치 연습중, 추후 삭제 예정이다.
 }

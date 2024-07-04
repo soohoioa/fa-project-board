@@ -64,4 +64,8 @@ public class Article extends AuditingFields{
     public int hashCode() {
         return Objects.hash(id);
     }
+
+    // 이것은 깃 브랜치 연습중, 추후 삭제 예정이다.
 }
+
+
